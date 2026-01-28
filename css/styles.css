@@ -8,6 +8,14 @@
 
 /* html */
 html {
-    background-color: #ffffff;
+    background-color: #f0f0ff;
     color: #000000;
+}
+
+/* Header */
+#header {
+    height: 70px;
+    width: auto;
+
+    background-color: #ffffff;
 }
