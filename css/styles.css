@@ -25,12 +25,12 @@ html {
     height: auto;
     width: 100%;
 
-    background-color: linear-gradient(-90deg, #8ecdf2, #1e6bb8);
+    background: linear-gradient(-90deg, #8ecdf2, #1e6bb8);
 }
 #thumbnail-img {
     width: 80%;
-    max-width: 1200px;
+    max-width: 960px;
     height: auto;
 
-    text-align: center;
+    margin: 0 auto;
 }
