@@ -29,6 +29,30 @@ html {
     
     background: linear-gradient(45deg, #8ecdf2, #1e6bb8);
 }
+.thumbnail-btn-wrapper {
+    height: 75px;
+    width: 75px;
+
+    position: relative;
+}
+.thumbnail-btn-background {
+    height: 75px;
+    width:75px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    opacity: 0.4;
+}
+.thumbnail-btn-arrow {
+    height: 75px;
+    width:75px;
+
+    position: absolute;
+    top:0;
+    left:0;
+}
 #thumbnail-img {
     width: 72%;
     max-width: 960px;
