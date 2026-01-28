@@ -30,7 +30,7 @@ html {
     background: linear-gradient(45deg, #8ecdf2, #1e6bb8);
 }
 #thumbnail-img {
-    width: 80%;
+    width: 72%;
     max-width: 960px;
     height: auto;
 }
