@@ -1,28 +1,117 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Development Playground</title>
-        <!-- ress.css -->
-            <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-        <!-- CSS -->
-            <link rel="stylesheet" href="css/styles.css">
+        <title>FHS EASY JAPANESE PORTAL</title>
+        <!-- Reset CSS (ress.css) -->
+         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!-- Main CSS -->
+         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <header id="header">
+            <img id="header-logo" src="images/logo.png">
+            <nav id="header-nav">
+                <div id="header-lang-selecter-wrapper">
+                    <select id="header-lang-selecter">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                        <option value="fr">French</option>
+                        <option value="ja">Japanese</option>
+                        <option value="zh">Chinese</option>
+                    </select>
+                </div>
+            </nav>
         </header>
         <div id="thumbnail">
             <div class="thumbnail-btn-wrapper left">
-                <img class="thumbnail-btn-background" src="https://raw.githubusercontent.com/MarronCMD/dev-playground-images/refs/heads/main/gray_circle-removebg-preview.png">
-                <img class="thumbnail-btn-arrow" src="https://raw.githubusercontent.com/MarronCMD/dev-playground-images/refs/heads/main/gray_arrow.png">
+                <img class="thumbnail-btn-bg" src="images/thumbnail_btn_bg.png">
+                <img class="thumbnail-btn-arrow" src="images/thumbnail_btn_arrow.png">
             </div>
-            <img id="thumbnail-img" src="https://raw.githubusercontent.com/MarronCMD/dev-playground-images/refs/heads/main/thumbnail_img_sample02.jpeg" alt="Thumbnail Image">
+            <img id="thumbnail-img" src="images/thumbnail_img.jpg">
             <div class="thumbnail-btn-wrapper right">
-                <img class="thumbnail-btn-background" src="https://raw.githubusercontent.com/MarronCMD/dev-playground-images/refs/heads/main/gray_circle-removebg-preview.png">
-                <img class="thumbnail-btn-arrow" src="https://raw.githubusercontent.com/MarronCMD/dev-playground-images/refs/heads/main/gray_arrow.png">
+                <img class="thumbnail-btn-bg" src="images/thumbnail_btn_bg.png">
+                <img class="thumbnail-btn-arrow" src="images/thumbnail_btn_arrow.png">
             </div>
         </div>
+        <main id="main">
+            <div id="main-title-wrapper">
+                <h1 id="main-title">FHS EASY JAPANESE PORTAL</h1>
+                <hr id="main-title-ul">
+            </div>
+            <div id="main-search-box-wrapper">
+                <img id="main-search-btn" src="images/search-btn.png">
+                <input id="main-search-box" type="text" name="search-box" placeholder="Enter keywords in English">
+            </div>
+            <!-- ここから記事部分 あとでテンプレートを記載しておきます -->
+            <div id="articles-wrapper">
+                <div class="article a1" id="a01">
+                    <h3 class="article-heading">Self-Introduction</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a1" id="a02">
+                    <h3 class="article-heading">Ask again / Confirm</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a03">
+                    <h3 class="article-heading">Don't understand / Need help</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a04">
+                    <h3 class="article-heading">Guidance and Transportation</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a05">
+                    <h3 class="article-heading">Unable to hear clearly / Unable to understand</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a06">
+                    <h3 class="article-heading">Speech rate / Explanation style</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a07">
+                    <h3 class="article-heading">Board notes / Handwritten notes / Handouts</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a08">
+                    <h3 class="article-heading">Assignments / Homework</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a09">
+                    <h3 class="article-heading">Speak up / Participate</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+                <div class="article a2" id="a10">
+                    <h3 class="article-heading">Physical Condition / Absence</h3>
+                    <p class="article-keywords">-</p>
+                </div>
+
+
+                <!-- 記事とポップアップのテンプレート -->
+                <input type="checkbox" class="article-popup-cb" id="p00">
+                <label class="article-open-popup" for="p00">
+                    <div class="article a0" id="a00">
+                        <h3 class="article-heading"></h3>
+                        <p class="article-keywords">-</p>
+                    </div>
+                </label>
+                <div class="article-popup">
+                    <label class="article-close-popup" for="p00"></label>
+                    <div class="article-popup-content">
+                        <!-- ここに表示させたい内容を記述 -->
+                    </div>
+                </div>
+                <!-- テンプレートここまで -->
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+        </main>
     </body>
 </html>
-
