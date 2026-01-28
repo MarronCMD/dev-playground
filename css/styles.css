@@ -27,7 +27,7 @@ html {
 
     text-align: center;
     
-    background: linear-gradient(90deg, #8ecdf2, #1e6bb8);
+    background: linear-gradient(45deg, #8ecdf2, #1e6bb8);
 }
 #thumbnail-img {
     width: 80%;
