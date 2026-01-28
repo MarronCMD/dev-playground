@@ -19,3 +19,16 @@ html {
 
     background-color: #ffffff;
 }
+
+/* Thumbnail */
+#thumbnail {
+    height: auto;
+    width: 100%;
+
+    background-color: linear-gradient(-90deg, #8ecdf2, #1e6bb8);
+}
+#thumbnail-img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
