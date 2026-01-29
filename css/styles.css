@@ -228,7 +228,7 @@ html {
     background-color: #ffffff;
 }
 .article-popup-content { /* ポップアップの中身 */
-    padding: 20px;
+    padding: 30px;
 }
 .article-popup-heading {
     font-size: 40px;
@@ -247,13 +247,13 @@ html {
     font-size: 25px;
     color: gray;
 
-    padding-left: 35px;
+    padding-left: 30px;
 }
 .article-popup-ja {
     font-size: 25px;
     color: gray;
 
-    padding-left: 35px;
+    padding-left: 30px;
     padding-bottom: 10px;
 }
 
